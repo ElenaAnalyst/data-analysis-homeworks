@@ -1,0 +1,99 @@
+1) Задание - написать SQL-запрос, который выводит из таблицы ratings:
+— значение поля avg_rating, умноженное на 100
+— ближайшее большее целое поля avg_rating
+— ближайшее меньшее целое поля avg_rating
+— округлённое значение поля vote_cnt, делённого на 1000
+
+SELECT avg_rating * 100 AS column_1,
+    ceil(avg_rating) AS column_2,
+    floor(avg_rating) AS column_3,
+    round(vote_cnt / 1000) AS column_4
+FROM ratings;
+
+2) Задание - написать SQL-запрос, который выводит:
+— поле run_time из таблицы titles
+— количество полных часов без минут, указанных в поле run_time (назовите это поле hours)
+
+SELECT run_time,
+       run_time/60 as hours
+FROM   titles;
+
+3) Задание - написать SQL-запрос, который выводит:
+— поле name из таблицы persons
+— количество символов в поле name (назовите его len)
+— поле name, переведённое в верхний регистр (назовите его up)
+— номер символа с первым вхождением буквы a (назовите его a_pos)
+
+SELECT name,
+       length(name) as len,
+       upper(name) as up,
+       position('a' in name) as a_pos
+FROM   persons;
+
+4) Задание - написать SQL-запрос, который составит поле вида <name> — <professions> из таблицы persons. 
+Назовите результирующее поле about
+
+SELECT concat(name, ' - ', professions) as about
+FROM   persons;
+
+5)Задание - написать SQL-запрос, который выводит из таблицы persons:
+— имя (поле name)
+— год текущей даты (назовите его year)
+— год рождения (полe year_of_birth)
+
+SELECT 
+    name, 
+    extract(year from now()) as year,
+    year_of_birth
+FROM persons;
+
+6) Задание - написать SQL-запрос, который выводит количество лет, прошедших с выхода произведения 
+(поле year_of_start таблицы titles) до текущего года. Назовите результирующее поле years.
+
+SELECT 
+    EXTRACT(YEAR FROM NOW()) - year_of_start AS years
+FROM titles;
+
+7) Задание - написать SQL-запрос, который выводит:
+— поле popular_title из таблицы titles
+— поле original_title из таблицы titles
+— флаг, одинаковы ли эти значения (назовите его title_equality)
+— флаг, принимающий значение True, если длина первого поля больше длины второго поля (назовите его title_over)
+
+SELECT 
+    popular_title,
+    original_title,
+    popular_title = original_title AS title_equality,
+    length(popular_title) > length(original_title) AS title_over
+FROM titles;
+
+8) 
+— имя из таблицы persons
+— если год рождения больше или равен 2000, то значение 'young', иначе значение 'old'
+Присвойте расчетному полю имя age_group.
+
+SELECT 
+    name,
+    CASE WHEN year_of_birth >= 2000 THEN 'young'
+            ELSE 'old' END AS age_group
+FROM persons;
+
+9) 
+— поле id из таблицы titles
+— номер символа с первым вхождением цифры 6 в поле id из таблицы titles (назовите поле pos_numb)
+
+SELECT 
+    id,
+    position('6' in id::text) as pos_numb
+FROM titles;
+
+10) 
+— поле original_title 
+— поле is_adult
+— поле is_adult, приведённое к целочисленному типу (назовите его is_adult_int)
+
+SELECT
+    original_title,
+    is_adult,
+    is_adult::int as is_adult_int
+FROM titles;
