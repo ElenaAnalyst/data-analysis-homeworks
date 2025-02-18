@@ -1,4 +1,4 @@
-## Проект урока 1. «Анализ данных о поездках на такси в Нью-Йорке»
+## [Проект урока 1. «Анализ данных о поездках на такси в Нью-Йорке»](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/1_lesson/1_lesson_pandas_HW.ipynb)
 
 [Датасет](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/1_lesson/1_lesson_taxi_nyc.csv) включает в себя информацию о датах и времени поездок, метеорологических условиях в это время, а также о том, является день праздничным или выходным.
 
