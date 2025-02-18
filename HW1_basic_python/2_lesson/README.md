@@ -1,7 +1,5 @@
 ## Проект урока 2. «Аналитика бронирования отелей»
 
-[Датасет](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/2_lesson/2_lesson_bookings.csv) 
-
 В этом проекте я выступаю в роли аналитика данных в компании, владеющей сетью отелей, и анализирую данные о бронированиях. **Задача** этого урока — закрепить навыки решения аналитических задач с помощью основных методов библиотеки pandas, а также использовать новые методы.
 
 ### Выполненные задачи:
@@ -16,6 +14,8 @@
 <hr>
 
 ### Описание данных:
+
+[Датасет](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/2_lesson/2_lesson_bookings.csv):
 
 - `Hotel` – тип отеля (City Hotel или Resort Hotel)
 - `Is canceled` – бронирование было отменено (1) или нет (0); не отмененное считается успешным
