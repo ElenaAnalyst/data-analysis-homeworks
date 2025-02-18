@@ -66,7 +66,7 @@
 
 <hr>
 
-## 📊 [Аналитика клиентов и логов gamedev-стартапа](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/3_lesson/3_lesson_HW.ipynb)
+## 📊 [Аналитика клиентов и логов gamedev-стартапа](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/3_lesson/README.md)
 В этом проекте я работаю в роли аналитика gamedev-стартапа, который вывел на рынок простую игру: в приложении пользователь пытается угадать ответы на предлагаемые вопросы.
 
 **🔧 Использованные технологии**
@@ -81,7 +81,7 @@
 
 <hr>
 
-## 🏬 [Аналитика бронирования отелей](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/2_lesson/2_lesson_HW.ipynb)
+## 🏬 [Аналитика бронирования отелей](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/2_lesson/README.md)
 В этом проекте были исследованы данные о бронированиях отелей.
 
 **🔧 Использованные технологии**
@@ -95,7 +95,7 @@
 
 <hr>
 
-## 🚕 [Анализ данных о поездках на такси](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/1_lesson/1_lesson_pandas_HW.ipynb)
+## 🚕 [Анализ данных о поездках на такси](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/1_lesson/README.md)
 В этом проекте были исследованы данные о поездках на такси в Нью-Йорке.
 
 **🔧 Использованные технологии**
