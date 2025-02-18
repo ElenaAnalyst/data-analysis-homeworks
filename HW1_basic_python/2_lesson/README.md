@@ -1,4 +1,4 @@
-## 🚕  Проект урока 2. «Аналитика бронирования отелей»
+## 🏬  Проект урока 2. «Аналитика бронирования отелей»
 
 [Датасет](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/2_lesson/2_lesson_bookings.csv) 
 
