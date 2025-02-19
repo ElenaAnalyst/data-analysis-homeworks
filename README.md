@@ -48,7 +48,7 @@
 
 <hr>
 
-## 🚖 [Анализ данных о поездках на такси в Перу](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/4_lesson/4_lesson_HW.ipynb)  
+## 🚖 [Анализ данных о поездках на такси в Перу](https://github.com/ElenaAnalyst/data-analysis-homeworks/blob/main/HW1_basic_python/4_lesson/README.md)  
 В этом проекте я работаю с данными по поездкам на такси.
 
 **🔧 Использованные технологии**
